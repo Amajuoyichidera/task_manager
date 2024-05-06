@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    margin: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+li.complete {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li span {
+    flex-grow: 1;
+}
+
+li button {
+    margin-left: 10px;
+}
